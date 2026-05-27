@@ -5,7 +5,7 @@
             "Sid": "VisualEditor0",
             "Effect": "Allow",
             "Action": "dynamodb:UpdateItem",
-            "Resource": "arn:aws:dynamodb:us-east-1:<ACCOUNT_ID>:table/quantasneaks"
+            "Resource": "arn:aws:dynamodb:<REGION>:<ACCOUNT_ID>:table/quantasneaks"
         }
     ]
 }
